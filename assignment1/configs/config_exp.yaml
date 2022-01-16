@@ -1,0 +1,11 @@
+Train:
+  batch_size: 64
+  learning_rate: 0.05 #https://calculator.name/scientific-notation-to-decimal/1e-1
+  reg: 0.0001
+  epochs: 100
+  momentum: 0.9
+  debug: True
+
+Model:
+  type: TwoLayerNet # SoftmaxRegression or TwoLayerNet
+  hidden_size: 64 # only applicable for TwolayerNet
